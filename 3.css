@@ -1,0 +1,92 @@
+body{
+	background: url("2-0.jpg") repeat center fixed;
+}
+header.page-header{
+	 background: no-repeat left/cover #006666	;
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+}
+
+header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;
+    margin: 30%;
+}
+#left a:link{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#left a:hover{
+	color: #CC9999;
+	text-decoration: underline;
+}
+
+#left a:visited{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#left a:active{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#left{
+	position: relative;
+	left: 20px;
+	background: #003300;
+	width: 250px;
+	height: 700px;
+}
+#u1 li{
+	background-color:#003300;
+	margin-bottom:100px;
+	color: #996600;
+	font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;
+}
+#right{
+	position: absolute;
+	top: 10px;
+	left: 350px;
+	background: #FFFFFF;
+	border: 1px solid #555555;
+	width: 450px;
+	height: 300px;
+}
+#right2{
+	position: absolute;
+	top: 700px;
+	left: 350px;
+	background: #FFFFFF;
+	border: 1px solid #555555;
+	width: 450px;
+	height: 300px;
+
+}
+#right3{
+	position: absolute;
+	top: 1570px;
+	left: 350px;
+	background: #FFFFFF;
+	border: 1px solid #555555;
+	width: 450px;
+	height: 300px;
+}
+
+#bottom{
+	position: absolute;
+	top: 2350px;
+	background: #cccccc;
+	border: 3px dotted #555555;
+	width: 450px;
+	height: 300px;
+	left: 600px;
+	height: 150px;
+	font-family: fantasy;
+	font-size:50px;
+}

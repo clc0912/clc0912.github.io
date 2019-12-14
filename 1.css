@@ -1,0 +1,101 @@
+body{
+	background-color:#FFCCFF;
+}
+header.page-header{
+	 background: no-repeat left/cover url(back1.jpg);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+}
+
+header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;
+    margin: 50%;
+}
+
+#u1 li{
+float:left;
+margin-right:180px;
+margin-top:30px;
+font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;
+}
+
+#middle{
+	background: url("back2.jpg") center fixed;
+	margin-top:120px;
+	height: 2300px;
+}
+
+.content{
+	position: relative;
+	top: 100px;
+	left: 400px;
+	background: #FFFFFF;
+	border: 1px solid #555555;
+	width: 700px;
+	height: 500px;
+	margin: 60px;
+}
+.content > a{
+	padding: 0px auto;
+	width: 600px;
+	height: 300px;
+}
+a > img{
+	width: 80%;
+	height:80%;
+	margin:10%;
+}
+
+#3pic{
+	background: url("3.jpg");
+	width: 500px;
+	height: 600px;
+	position: relative;
+	top: 200px;
+	left: 200px;
+}
+
+#4pic{
+	background: url("4.jpg");
+	width: 500px;
+	height: 600px;
+	position: relative;
+	top: 200px;
+	left: 200px;
+}
+
+#5pic{
+	background: url("5.jpg");
+	width: 500px;
+	height: 600px;
+	position: relative;
+	top: 200px;
+	left: 200px;
+}
+#name {
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	top: 10px;
+	left: 250px;
+	color: #330033;
+	font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;	
+	
+}
+#bottom{
+	background: #CC9999;
+	height: 150px;
+	font: bold calc(1em + 2 * (50vw - 120px) / 100) 'Dancing Script', cursive,
+        fantasy;
+}
+#bword{
+	position: relative;
+	top: 50px;
+}
